@@ -15,8 +15,10 @@ let matriz1 = [
     [0, 0, 0]
   ];
 
-  for (let i = 0; i < matriz1.length;) 
-    for (let j = 0; j < matriz1[j].length;){
-matriz3 = matriz1[i][j] + matriz2[i][j]
+  for (let i = 0; i < matriz1.length; i++) {
+    for (let j = 0; j < matriz1[j].length; j++){
+        matriz3[i][j] = matriz1[i][j] + matriz2[i][j];
     }
-return matriz3
+  }
+
+console.log(matriz3);
