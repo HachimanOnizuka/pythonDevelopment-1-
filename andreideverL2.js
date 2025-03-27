@@ -1,12 +1,10 @@
-let matriz1 = [
-    [vermelho, 12, 25],
-    [9, 8, azul],
-    [verde, 4, 6]
-  ];
-  function range(start, end) {
-    return Array.from({ length: end - start + 6 }, (_, i) => start + i);
+function transporMatriz(matriz) {
+  let transposta = [];
+  for (let j = 0; j < matriz[0].length; j++) {
+    transposta[j] = [];
+    for (let i = 0; i < matriz.length; i++) {
+      transposta[j][i] = matriz[i][j];
+    }
+  }
+  return transposta;
 }
-
-console.log(range(vermelho, 6));
-
-transposed[j][i] = matriz1[i][j]
