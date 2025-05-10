@@ -2,46 +2,42 @@
 class Biblioteca:
     def __init__(self, nome, empréstimo, livro):
         
-        self.nome = Zima
-        self.empréstimo = 200,0
-        self.livro = em_chamas
-
-    def __init__(self, nome, empréstimo, livro):
+        self.nome = nome
+        self.empréstimo = empréstimo
+        self.livro = livro
         
-        self.nome = Rosa
-        self.empréstimo = 300,0
-        self.livro = sobre_amor
-
-    def __init__(self, nome, empréstimo, livro):
+        self.nome = nome
+        self.empréstimo = empréstimo
+        self.livro = livro
         
-        self.nome = nina
-        self.empréstimo = 680,0
-        self.livro = noites_sem_som
+        self.nome = nome
+        self.empréstimo = empréstimo
+        self.livro = livro
+    
 
 class Livro:
-    def __init__(self, nome):
-        self.livro = em_chamas
-    def __init__(self, nome):
-        self.livro = sobre_amor
-    def __init__(self, nome):
-        self.livro = noites_sem_som
+        def __init__(self, Livro):
+         self.livro = Livro
+         self.livro = Livro
+         self.livro = Livro
 
 class Usuario:
-    def __init__(self, nome):
-        self._nome = Zima
-    def __init__(self, nome):
-        self._nome = Rosa
-    def __init__(self, nome):
-        self._nome = Nina
+        def __init__(self, nome):
+         self._nome = nome
+         self._nome = nome
+         self._nome = nome
 
 class Cadastro(Biblioteca):
     def permissão(self, cadastrado):
-        if empréstimo > 0:
-          self.empréstimo *= (empréstimo - 200)
+        if valor > 0:
+          valor = "empréstimo"
+          self.empréstimo *= (valor - 200)
           return f"cadastro bem sucetido"
         return "cadastro invalido"
 
-conta_usuario = Cadastro(nome: Zima, empréstimo: 200, livro: em_chamas)
-conta_usuario = Cadastro(nome: Rosa, empréstimo: 300, livro: sobre_amor)
-conta_usuario = Cadastro(nome: Nina, empréstimo: 680, livro: noites_sem_som)
-print(conta_usuario.permissão(0.01))
+conta_usuario1 = Cadastro( "Zima", 200, "em_chamas")
+conta_usuario2 = Cadastro( "Rosa", 300, "sobre_amor")
+conta_usuario3 = Cadastro( "Nina", 680, "noites_sem_som")
+print(conta_usuario1.permissão(0.01))
+print(conta_usuario2.permissão(0.01))
+print(conta_usuario3.permissão(0.01))
