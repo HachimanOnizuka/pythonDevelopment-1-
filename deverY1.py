@@ -1,37 +1,24 @@
 
 class Biblioteca:
-    def __init__(self, nome, empréstimo, livro):
+    def __init__(self, nome, emprestimo, livro):
         
         self.nome = nome
-        self.empréstimo = empréstimo
+        self.emprestimo = emprestimo
         self.livro = livro
-        
-        self.nome = nome
-        self.empréstimo = empréstimo
-        self.livro = livro
-        
-        self.nome = nome
-        self.empréstimo = empréstimo
-        self.livro = livro
-    
 
 class Livro:
-        def __init__(self, Livro):
-         self.livro = Livro
-         self.livro = Livro
-         self.livro = Livro
+        def __init__(self, livro):
+         self.livro = livro
 
 class Usuario:
         def __init__(self, nome):
          self._nome = nome
-         self._nome = nome
-         self._nome = nome
 
 class Cadastro(Biblioteca):
     def permissão(self, cadastrado):
-        if valor > 0:
-          valor = "empréstimo"
-          self.empréstimo *= (valor - 200)
+        if value > 0:
+          value = "emprestimo"
+          self.emprestimo *= (value - 200)
           return f"cadastro bem sucetido"
         return "cadastro invalido"
 
