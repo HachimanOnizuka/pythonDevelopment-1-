@@ -21,8 +21,10 @@ class Animal(metaclass=RegistryMeta):
     pass
 class Cachorro(Animal):
     pass
+     def __str__(self, cachorro):
+      return f"latindo {self.latir}"
+      
 class Gato(Animal):
     pass
-
-def __str__(self, gato):
+     def __str__(self, gato):
      return f"miando {self.miar}"
