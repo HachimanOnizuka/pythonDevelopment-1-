@@ -23,7 +23,8 @@ class Cachorro(Animal):
     pass
      def __str__(self, cachorro):
       return f"latindo {self.latir}"
-      
+      def __repr__(self, cachorro):
+         return f"mordendo a ameaça {self.morder}"
 class Gato(Animal):
     pass
      def __str__(self, gato):
